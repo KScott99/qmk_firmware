@@ -5,4 +5,3 @@ LTO_ENABLE = yes # for size
 OLED_ENABLE = yes
 
 CAPS_WORD_ENABLE = yes      # Enable caps word
-# POINTING_DEVICE_HIRES_SCROLL_ENABLE = yes
