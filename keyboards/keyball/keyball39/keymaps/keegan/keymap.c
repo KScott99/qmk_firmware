@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_Q     , KC_W     , KC_F     , KC_P     , KC_B     ,                            KC_J     , KC_L     , KC_U     , KC_Y     , KC_QUOTE ,
     KC_A     , KC_R     , KC_S     , KC_T     , KC_G     ,                            KC_M     , KC_N     , KC_E     , KC_I     , KC_O     ,
     KC_Z     , KC_X     , KC_C     , KC_D     , KC_V     ,                            KC_K     , KC_H     , KC_COMM  , KC_DOT   , OSM(MOD_LSFT),
-    XXXXXXX , XXXXXXX, XXXXXXX,       XXXXXX, LT(2,KC_SPC), KC_ENT,        LT(4,KC_BSPC), OSL(3),                           MO(1)
+    XXXXXXX , XXXXXXX, XXXXXXX,       XXXXXXX, LT(2,KC_SPC), KC_ENT,        LT(4,KC_BSPC), OSL(3),                           MO(1)
   ),
 
   [1] = LAYOUT_right_ball(
@@ -48,14 +48,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_LBRC , KC_7      , KC_8      , KC_9    , KC_RBRC  ,                            KC_QUESTION , KC_UNDS , OSM(MOD_LALT), XXXXXXX, KC_DQUO,
     KC_SCLN , KC_4      , KC_5      , KC_6    , KC_EQL   ,                            KC_TAB   , TO(1)    , OSM(MOD_LCTL),OSM(MOD_LSFT),OSM(MOD_LGUI),
     KC_GRV  , KC_1      , KC_2      , KC_3    , KC_BSLS  ,                            KC_SLASH  , KC_MINS , XXXXXXX  , XXXXXXX  , XXXXXXX  ,
-    XXXXXXX , XXXXXXX   , XXXXXXX   ,    XXXXXX, KC_SPC, KC_0,                   CW_TOGG, KC_ESC,                                 XXXXXXX
+    XXXXXXX , XXXXXXX   , XXXXXXX   ,    XXXXXXX, KC_SPC, KC_0,                   CW_TOGG, KC_ESC,                                 XXXXXXX
   ),
 
   [4] = LAYOUT_right_ball(
     KC_EXLM  , KC_LABK , KC_RABK , KC_MINUS   , KC_PIPE,                              KC_QUESTION , KC_HASH, KC_RPRN, KC_LPRN , KC_ASTERISK,
     KC_LPRN  , KC_RPRN , KC_COLON, KC_EQUAL   , KC_AMPR,                              KC_BACKSLASH, KC_CIRC, KC_RCBR, KC_LCBR , KC_DLR,
     KC_TILDE , KC_SLASH, KC_PLUS , KC_ASTERISK, KC_PERC,                              KC_SLASH    , KC_LABK, KC_PIPE, KC_MINUS,  KC_RABK,
-    XXXXXXX , XXXXXXX   , XXXXXXX ,     XXXXXXX, KC_SPC, KC_BSPC,                  XXXXXX, XXXXXX,                                 XXXXXXX
+    XXXXXXX , XXXXXXX   , XXXXXXX ,     XXXXXXX, KC_SPC, KC_BSPC,                  XXXXXXX, XXXXXXX,                                 XXXXXXX
   ),
 };
 // clang-format on
