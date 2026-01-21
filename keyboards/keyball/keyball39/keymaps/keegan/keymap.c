@@ -46,7 +46,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [3] = LAYOUT_right_ball(
     KC_LBRC , KC_7      , KC_8      , KC_9    , KC_RBRC  ,                            KC_QUESTION , KC_UNDS , OSM(MOD_LALT), XXXXXXX, KC_DQUO,
-    KC_SCLN , KC_4      , KC_5      , KC_6    , KC_EQL   ,                            KC_TAB   , TO(1)    , OSM(MOD_LCTL),OSM(MOD_LSFT),OSM(MOD_LGUI),
+    KC_SCLN , KC_4      , KC_5      , KC_6    , KC_EQL   ,                            KC_TAB   , TO(0)    , OSM(MOD_LCTL),OSM(MOD_LSFT),OSM(MOD_LGUI),
     KC_GRV  , KC_1      , KC_2      , KC_3    , KC_BSLS  ,                            KC_SLASH  , KC_MINS , XXXXXXX  , XXXXXXX  , XXXXXXX  ,
     XXXXXXX , XXXXXXX   , XXXXXXX   ,    XXXXXXX, KC_SPC, KC_0,                   CW_TOGG, KC_ESC,                                 XXXXXXX
   ),
